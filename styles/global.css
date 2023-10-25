@@ -1,0 +1,126 @@
+/* Style du conteneur global_hud */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.global_hud {
+    margin-top: 65vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    position: fixed;
+}
+
+/* Style des éléments de gauche et de droite */
+.hud {
+    width: 600px;
+    height: 200px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* Écartez les éléments horizontalement */
+}
+.right {
+    flex-direction: row-reverse;
+}
+
+/* Style des images */
+.img img {
+    width: 150px;
+    height: 150px;
+    border: 3px solid black;
+    border-radius: 100%;
+}
+
+/* Style du contenu container */
+.hud_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; /* Écartez les éléments verticalement */
+    align-items: start;
+}
+.hud_container_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; /* Écartez les éléments verticalement */
+    align-items: end;
+
+}
+.content_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; /* Écartez les éléments verticalement */
+    align-items: start;
+    padding: 10px;
+    width: 150px;
+    background-color: blue;
+    height: 60px;
+}
+
+
+/* Style de la barre de vie */
+.vie_left {
+    width: 400px;
+    height: 10px;
+    border: solid 2px black;
+    border-radius: 15px;
+}
+.vie_right {
+    width: 400px;
+    height: 10px;
+    border: solid 2px black;
+    border-radius: 15px;
+    display: flex;
+    justify-content: right;
+}
+.barre_de_vie {
+    width: 50%;
+    height: 100%;
+    background-color: #a1141b; /* Couleur de la barre de vie (rouge) */
+    border-radius: 15px;
+}
+.map {
+    margin-left: 550px;
+    width: 800px;
+    height: 800px;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: top;
+    gap: 0px;
+    border: solid 1px black;
+}
+.carre-gris {
+    aspect-ratio: 1;
+    background-color: grey;
+    height: 10%;
+
+}
+.carre-blanc {
+    aspect-ratio: 1;
+    background-color: rgb(255, 255, 255);
+
+    height: 10%;
+    
+}
+
+.carre-active {
+    aspect-ratio: 1;
+    background-color: rgb(67, 0, 252);
+
+    height: 10%;
+    
+}
+
+.carre-player {
+    aspect-ratio: 1;
+    background-color: rgb(255, 0, 0);
+
+    height: 10%;
+    
+}
