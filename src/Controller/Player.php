@@ -13,33 +13,33 @@ class Player {
     private $pM;
     private $pA;
     private $pO;
-    public $intelligence;
-    public $force;
-    public $agilite;
-    public $chance;
-    public $neutre;
-    public $dommage_feu;
-    public $dommage_eau;
-    public $dommage_air;
-    public $dommage_terre;
-    public $dommage_neutre;
-    public $resistance_feu;
-    public $resistance_eau;
-    public $resistance_air;
-    public $resistance_terre;
-    public $resistance_neutre;
-    public $resistance_fixe_feu;
-    public $resistance_fixe_eau;
-    public $resistance_fixe_air;
-    public $resistance_fixe_terre;
-    public $resistance_fixe_neutre;
-    public $tacle;
-    public $fuite;
-    public $soin;
-    public $puissance;
-    public $tx_crit;
-    public $dommage_crit;
-    public $items; //array
+    private $intelligence;
+    private $force;
+    private $agilite;
+    private $chance;
+    private $neutre;
+    private $dommage_feu;
+    private $dommage_eau;
+    private $dommage_air;
+    private $dommage_terre;
+    private $dommage_neutre;
+    private $resistance_feu;
+    private $resistance_eau;
+    private $resistance_air;
+    private $resistance_terre;
+    private $resistance_neutre;
+    private $resistance_fixe_feu;
+    private $resistance_fixe_eau;
+    private $resistance_fixe_air;
+    private $resistance_fixe_terre;
+    private $resistance_fixe_neutre;
+    private $tacle;
+    private $fuite;
+    private $soin;
+    private $puissance;
+    private $tx_crit;
+    private $dommage_crit;
+    private $items; //array
 
 
     

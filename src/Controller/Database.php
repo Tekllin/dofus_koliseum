@@ -1,11 +1,11 @@
 <?php 
 namespace tekllin\Controller;
 class Database {
-    public $table = "contact";
+    private $table = "contact";
     private $method;
     private $data;
     private $format;
-    public function __construct(){
+    private function __construct(){
         
     }
 
