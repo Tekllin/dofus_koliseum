@@ -15,6 +15,9 @@ class Spell {
     private $spellEffectBoost;
     private $spellEffectBoostDuration;
     private $spellCrit;
+    private $cooldown; 
+    private $nb_lancer;
+    
 
     public function __construct(){
         $this->name = $name;
@@ -28,6 +31,8 @@ class Spell {
         $this->spellEffectBoost = $spellEffectBoost;
         $this->spellEffectBoostDuration = $spellEffectBoostDuration;
         $this->spellCrit = $spellCrit;
+        $this->cooldown = $cooldown;
+        $this->nb_lancer = $nb_lancer; 
     }
 
 
