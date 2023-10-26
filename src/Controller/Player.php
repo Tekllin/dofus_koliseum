@@ -58,21 +58,25 @@ class Player {
         $this->pM = $pM;
         $this->pA = $pA;
         $this->pO = $pO;
+        // array stat ??
         $this->intelligence = $intelligence;
         $this->force = $force;
         $this->agilite = $agilite;
         $this->chance = $chance;
         $this->neutre = $neutre;
+        // array dommage ??
         $this->dommage_feu = $dommage_feu;
         $this->dommage_eau = $dommage_eau;
         $this->dommage_air = $dommage_air;
         $this->dommage_terre = $dommage_terre;
         $this->dommage_neutre = $dommage_neutre;
+        // array resistance ??
         $this->resistance_feu = $resistance_feu;
         $this->resistance_eau = $resistance_eau;
         $this->resistance_air = $resistance_air;
         $this->resistance_terre = $resistance_terre;
         $this->resistance_neutre = $resistance_neutre;
+        // array resistance_fixe ??
         $this->resistance_fixe_feu = $resistance_fixe_feu;
         $this->resistance_fixe_eau = $resistance_fixe_eau;
         $this->resistance_fixe_air = $resistance_fixe_air;
@@ -81,8 +85,10 @@ class Player {
         $this->tacle = $tacle;
         $this->fuite = $fuite;
         $this->soin = $soin;
+        // mettre dans array stat ??
         $this->puissance = $puissance;
         $this->tx_crit = $tx_crit;
+        // mettre dans array dommage ??
         $this->dommage_crit = $dommage_crit;
         $this->items = $items; //array
 
