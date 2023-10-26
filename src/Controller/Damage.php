@@ -14,7 +14,7 @@ class Damage {
     private $dommage_crit;
     private $tx_crit;
     private $tx_crit_sort;
-    private $dommage_final;
+    private $degats_finaux;
     
 
     public function __construct() {
@@ -27,7 +27,7 @@ class Damage {
         $this->dommage_crit = $dommage_crit;
         $this->tx_crit = $tx_crit;
         $this->tx_crit_sort = $tx_crit_sort;
-        $this->dommage_final = $dommage_final;
+        $this->degats_finaux = $degats_finaux;
         
     }
 
@@ -70,8 +70,10 @@ class Damage {
         return $this->$tx_crit_sort;
     }
 
-    public function setDommageFinal() {
+    public function setDegatsFinaux() {
         
+        //  dommage_fixe + (puissance + stat / 100) * dommage sort 
+        //  dommage infligés = degatsFinaux - (degatsFinaux - res_fixe) * (res / 100)
     }
 
     
