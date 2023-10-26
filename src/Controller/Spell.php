@@ -35,6 +35,7 @@ class Spell {
         $this->nb_lancer = $nb_lancer; 
     }
 
+    
 
 
 

@@ -3,6 +3,7 @@
 class Player {
     private $pseudo;
     private $classe;
+    private $image;
     private $lvl;
     private $vie;
     private $maxVie;
@@ -39,13 +40,14 @@ class Player {
     private $puissance;
     private $tx_crit;
     private $dommage_crit;
-    private $items; //array
+    private $items = []; //array
 
 
     
     public function __construct($pseudo, $classe, $lvl, $maxVie, $x, $y){
         $this->pseudo = $pseudo;
         $this->classe = $classe;
+        $this->image = $image;
         $this->lvl = $this->setLevel($lvl);
         $this->vie = $vie;
         $this->maxVie = $maxVie;
